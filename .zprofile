@@ -15,17 +15,16 @@ alias vpn_iran="sshuttle --dns -vvr root@213.176.0.81 0/0"
 alias vim="nvim"
 alias ircc="cd /Users/mac/dev/ircc && bun run index.ts"
 alias ff="fzf --preview='bat --color=always {}'"
-alias vmrss="top -l 1 -s 0 -stats mem -pid "
+alias vmrss="sh ~/dotfiles/scripts/vmrss"
 
 
-export OPENAI_API_KEY=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
 export HOMEBREW_NO_INSTALL_CLEANUP=TRUE
 
 export FZF_DEFAULT_COMMAND="fd . $HOME  --hidden --follow --exclude .git --ignore-file ~/.gitignore"
 # export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -l -g ""'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd . $HOME --type d --hidden --follow --exclude .git --ignore-file ~/.gitignore"
-
+export STOW_DIR="$HOME/dotfiles"
 
 
 fv() {
