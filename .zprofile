@@ -16,7 +16,8 @@ alias vim="nvim"
 alias ircc="cd /Users/mac/dev/ircc && bun run index.ts"
 alias ff="fzf --preview='bat --color=always {}'"
 alias vmrss="sh ~/dotfiles/scripts/vmrss"
-
+alias res_yabai="yabai --restart-service"
+alias res_skhd="skhd --restart-service"
 
 export HOMEBREW_NO_INSTALL_CLEANUP=TRUE
 
